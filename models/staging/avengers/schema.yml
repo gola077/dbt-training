@@ -1,4 +1,4 @@
 version: 2
 
 models:
-  - name: stg_avengers__avengers_history
+  - name: stg_avengers_avengers_history
