@@ -30,6 +30,10 @@ final as (
         uploaded_at
 
     from avengers_history
+
+    {% if target.name == 'dev' %}
+    where notes != 'na'
+    {% endif %}
     
 )
 
