@@ -21,6 +21,10 @@ vars:
   default_string: 'N/A'
 
 
+seeds:
+  +schema: public
+
+
 models:
   dbt_training:
     staging:

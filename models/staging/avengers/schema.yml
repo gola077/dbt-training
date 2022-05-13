@@ -2,3 +2,11 @@ version: 2
 
 models:
   - name: stg_avengers_avengers_history
+    columns:
+      - name: avenger_id
+        tests:
+          - unique
+      - name: avenger_name
+        tests:
+          - unique       
+          
