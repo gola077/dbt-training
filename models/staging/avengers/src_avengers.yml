@@ -4,7 +4,7 @@ sources:
   - name: avengers
     database: |
       {%- if  target.name == "dev" -%} raw_dev
-      {%- elif target.name == "prod"  -%} prod
+      {%- elif target.name == "prod"  -%} raw
       {%- else -%} invalid_database
       {%- endif -%}
     schema: avengers
