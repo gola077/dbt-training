@@ -13,9 +13,11 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
+    env:
+      DBT_USER: ${{ secrets.DBT_USER }}
+      DBT_PASSWORD: ${{ secrets.DBT_PASSWORD }}
 
     steps:
-     
       - uses: actions/checkout@v3
 
     
